@@ -1,0 +1,35 @@
+.code-frame-container {
+  display: flex;
+}
+
+.code-frame {
+  width: 592px;
+  height: 430px;
+  background-color: #24144c;
+  margin: 5px;
+  position: relative;
+}
+
+.with-image {
+  background-color: lightblue;
+}
+
+.with-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.titulo{
+  font-family: Helvetica, sans-serif; 
+  font-size: 24px; 
+  color: white; 
+  text-align: left; 
+  margin: 10px 0; 
+}
+.texto{
+  font-family: Helvetica, sans-serif; 
+  font-size: 18px; 
+  color: white; 
+  text-align: left; 
+  margin: 20px 0; 
+}
